@@ -12,15 +12,11 @@ Useful for performing [personal_sign](https://metamask.github.io/api-playground/
 
 `npm install browser-string-hexer` or `yarn add browser-string-hexer`.
 
-Then in your code:
-
-```
-import default as hexer from 'browser-string-hexer';
-```
-
 ## Usage
 
 ```javascript
+import hexer from 'browser-string-hexer';
+
 const hex = hexer("hello");
 // hex === '0x68656c6c6f'
 ```
